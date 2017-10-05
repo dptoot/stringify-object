@@ -16,9 +16,6 @@
   	"build": "babel index.js --presets env --out-dir dist",
     "test": "xo && ava"
   },
-  "files": [
-    "index.js"
-  ],
   "main": "./dist/index.js",
   "keywords": [
     "object",
