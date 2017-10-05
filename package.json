@@ -1,6 +1,6 @@
 {
   "name": "@dptoot/stringify-object",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "description": "Stringify an object/array like JSON.stringify just without all the double-quotes",
   "license": "BSD-2-Clause",
   "repository": "yeoman/stringify-object",
@@ -13,7 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
-  	"build": "babel index.js --presets env --out-dir dist",
+    "build": "babel index.js --presets env --out-dir dist",
     "test": "xo && ava"
   },
   "main": "./dist/index.js",
